@@ -1,8 +1,15 @@
-    <div class="bg-blue-300 h-10 row-auto grid justify-items-end">
-        <ul class="flex font-semibold text-[15px] text-black">
-            <li><a class="mx-4 hover:bg-amber-400 p-2" href="">Home</a></li>
-            <li><a class="mx-4 hover:bg-amber-400 p-2" href="">About</a></li>
-            <li><a class="mx-4 hover:bg-amber-400 p-2" href="">Project</a></li>
-            <li><a class="mx-4 hover:bg-amber-400 p-2" href="">Contact</a></li>
-        </ul>
+<nav id="navbar">
+    <div class="container">
+        <div class="row justify-between align-center">
+            <a href="#"><img src="{{asset('resources/')}}" alt="" /></a>
+            <ul class="row">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+                <li><a href="./projects.html">PROJECTS</a></li>
+                <li><a href="./blogs.html">BLOGES</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+                <button class="dark"><i class="fa-solid fa-moon"></i></button>
+            </ul>
+        </div>
     </div>
+</nav>

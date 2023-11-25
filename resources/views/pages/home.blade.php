@@ -2,7 +2,14 @@
 
 @section('content')
     @include('components.header')
-    @include('components.nav')
     @include('components.hero')
+    @include('components.about')
+    @include('components.cards')
+    @include('components.branding')
+    @include('components.workingon')
+    @include('components.expertsarea')
+    @include('components.services')
+    @include('components.clientfeedback')
+    @include('components.blogpost')
     @include('components.footer')
 @endsection
